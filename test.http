@@ -1,0 +1,33 @@
+GET http://localhost:3000
+
+###
+
+POST http://localhost:3000
+Content-Type: application/json
+Accept: application/json 
+
+{
+    "todo" : "Eko Khanedy"
+}
+
+###
+
+PUT http://localhost:3000
+Content-Type: application/json
+Accept: application/json
+
+{
+    "id" : 1,
+    "todo" : "Adam Ramdan"
+}
+
+###
+
+DELETE http://localhost:3000
+Content-Type: application/json
+Accept: application/json
+
+{
+    "id" : 0,
+    "todo" : "Hadi Rachmat"
+}
